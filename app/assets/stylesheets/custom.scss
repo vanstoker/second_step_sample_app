@@ -4,6 +4,7 @@
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
+$green-yellow: #adff2f;
 
 /* universal */
 
@@ -66,7 +67,7 @@ p {
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-    color: white;
+    color: $green-yellow;
     text-decoration: none;
   }
 }
